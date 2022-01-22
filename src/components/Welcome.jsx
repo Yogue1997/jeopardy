@@ -1,12 +1,12 @@
-import Questions from "./Questions";
+import Answer from "./Answer";
 
 function Welcome () {
 
 
     return (
-        <div>
-            <p>Welcome to Jeopardy</p>
-        <Questions/>
+        <div >
+            <p id="welcome"> Welcome to Jeopardy </p>
+            <Answer/>
         </div>
     )
 }

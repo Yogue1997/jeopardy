@@ -1,30 +1,17 @@
-import React,{useState, useEffect} from "react";
-import Display from "./Display";
+import React,{useState} from "react";
 
 
 
+function Questions (props) {
 
-function Questions () {
+    const [data, setData] = useState(props.questions)
 
-    const [questions, setQuestions] = useState([])
-    useEffect(() => {
-        loadQuestions();
-    },[])
-
-
-    const loadQuestions = async () => {
-        await fetch("http://jservice.io/api/random")
-        .then(response => response.json())
-        .then(data => setQuestions(data))
-    }
+    
+    
 
 
-    return(
+    return (
         <div>
-            {questions.map((data, index) => (
-                <Display question = {data.question} answerToBeReveal ={data.answer} 
-                category ={data.category.title} point = {data.value} key={index}/>
-            ))}
         </div>
     )
 }

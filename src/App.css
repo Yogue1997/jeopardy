@@ -2,3 +2,25 @@
   margin: 0;
   padding: 0;
 }
+
+.App, #pointcontainer,p,#randomcontainer,#revealdiv{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 2%;
+  justify-content: space-around;
+}
+
+.App{
+  border: 2px solid black;
+  margin: 50px 20%;
+  padding: 70px 20%;
+  border-radius: 7px;
+  background-color: rgb(53, 92, 92);
+}
+
+#welcome {
+  margin-bottom: 20px;
+  font-size: 29px;
+  color:azure
+}
