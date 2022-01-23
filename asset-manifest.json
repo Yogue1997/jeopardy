@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/jeopardy/static/css/main.5183c120.css",
+    "main.js": "/jeopardy/static/js/main.9fe00413.js",
+    "index.html": "/jeopardy/index.html",
+    "main.5183c120.css.map": "/jeopardy/static/css/main.5183c120.css.map",
+    "main.9fe00413.js.map": "/jeopardy/static/js/main.9fe00413.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5183c120.css",
+    "static/js/main.9fe00413.js"
+  ]
+}
